@@ -1,0 +1,135 @@
+html,body{height:100%}
+
+body{
+    font-family: 微软雅黑;
+    background: #eee;
+    background-image: url(../images/furley_bg.png);
+    //background-image: url(../images/bg.png);
+}
+
+.web-top-status{
+    position: absolute;
+    height:25px;   
+    line-height:25px;   
+    overflow:hidden;  
+    background-color: red;
+    font-size:14px;
+    color:white;
+    width:20%;
+    text-align: center;
+    margin:0px auto;
+    left:40%;
+}
+
+.navbar{
+    position: fixed;
+    width:100%;
+    left:0;
+    top:0;
+    z-index: 20;
+    margin: 0px auto;
+    padding: 0px;
+    overflow: visible;
+    -webkit-box-shadow: 0px 0px 3px #cccccc;
+    -moz-box-shadow: 0px 0px 3px #cccccc;
+    box-shadow: 0px 0px 3px #cccccc;
+    color: white;
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #4d5b76), color-stop(1, #6c7a95));
+    height:25px;   
+    line-height:35px;   
+    overflow:hidden;
+    font-size:16px;
+    padding-left: 20px;
+    min-height: 40px;
+}
+
+.pos_container{
+    position: fixed;
+    border:1px solid orange;
+    height: 400px;
+    width: 600px;
+    margin-top: 40px;
+    margin-left: 6%;
+}
+
+.drop-data-config{
+    position: fixed;
+    width:30%;
+    right:2px;
+    margin-top: -10px;
+    background-color: cornsilk;
+    border:1px solid orange;
+}
+
+.drop-import-config{
+    position: fixed;
+    width:80%;
+    height:100%;
+    right:-1px;
+    margin-top: -10px;
+    background-color: cornsilk;
+    border:1px solid orange;
+}
+
+.header ul,.header li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height:100%;
+    float:left;
+}
+.header li a{
+    color:white;
+    text-shadow: none;
+    font-size:14px;
+    text-decoration: none;
+    padding: 10px 15px 10px;
+    cursor: pointer;
+}
+.header li a:hover,.header li a:visited,.header li a:active{
+    text-decoration: none;
+    color:white;
+}
+
+.li_selected,.header li:hover{
+    background-color:#333333;
+    text-decoration: none;
+}
+
+.city-name a{
+    font-size:9px
+}
+td img{
+    max-height: 80px;
+}
+.text-red-font{
+    font-size:14px;
+    color:red;
+}
+
+#container,#pos_container{
+    height:100%;
+    width:100%;
+}
+
+.margintop25{
+    margin-top:-25px;
+}
+
+.jcrop-holder{
+    margin:0 auto;
+}
+
+.dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
+    color: #ffffff;
+    text-decoration: none;
+    outline: 0;
+    background-color: #428bca;
+}
+
+.li-address a:hover{
+    color: #ffffff;
+    text-decoration: none;
+    outline: 0;
+    background-color: #428bca;
+}
